@@ -46,6 +46,7 @@ export default function Authentication() {
       // Handle error
       console.error('Failed to save data');
     }
+    
     router.push('/warning');
   };
 
